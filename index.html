@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-
+        scale=1.0">
+        <title>Princess' university website design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/school logo.png"></a>
+                <div class="nav-links" id=navlinks>
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSES</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+
+            <div class="text-box">
+<h1>World's Biggest Tech University</h1>
+<p>So this is me trying to build my first functional website after starting my html and css class in feb then july 2021.<br> It's excitttting!
+</p>
+<a href="" class="hero-btn">Visit Us To Know More</a>
+            </div>
+        </section>
+
+<!--course-->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Eveniet reprehenderit nobis reiciendis blanditiis, maxime, odit iusto et eos rem adipisci quo non accusantium? Vitae molestiae ducimus sint aliquid sed? Esse.</p>
+
+<div class="row">
+    <div class="course-col">
+<h3>Intermediate</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi alias voluptatibus quam id dignissimos ad impedit quos adipisci tempore qui, officiis sit harum ipsa nesciunt, non voluptatum dicta vero quo!</p>
+    </div>
+
+</div>
+<div class="course-col">
+    <h3>Degree</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi alias voluptatibus quam id dignissimos ad impedit quos adipisci tempore qui, officiis sit harum ipsa nesciunt, non voluptatum dicta vero quo!</p>
+        </div>
+    
+    </div>
+    <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi alias voluptatibus quam id dignissimos ad impedit quos adipisci tempore qui, officiis sit harum ipsa nesciunt, non voluptatum dicta vero quo!</p>
+            </div>
+
+</section>
+
+<!--Campus-->
+
+<section class="Campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, eveniet. Iusto pariatur atque quis voluptate! Ea explicabo dignissimos laboriosam culpa rerum animi ut dolore ab nemo, quis ad delectus distinctio.
+
+<div class="Campus-col">
+    <img src="images/ph.png" alt="">
+<div class="layer">
+<h3>PORTHARCOURT</h3>
+</div>
+<div class="Campus-col">
+    <img src="images/abuja.png" alt="">
+<div class="layer">
+<h3>ABUJA</h3>
+</div>
+<div class="Campus-col">
+    <img src="images/lagos.png" alt="">
+<div class="layer">
+<h3>LAGOS</h3>
+</div>
+</div>
+    </section>
+
+    <!------facilities-->
+    <section class="facilities">
+        <h1>Our Facilities </h1>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni tempora distinctio, officiis fugiat natus alias quod vel eum repudiandae fugit aliquam perferendis magnam enim autem, aliquid sit beatae hic explicabo.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png" alt="">
+            <h3>World Class library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse molestiae id, soluta ullam eum aperiam odit iure eligendi magnam cupiditate, dicta, laborum vitae distinctio. Dolor adipisci culpa sapiente ipsam architecto?</p>
+       
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png" alt="">
+            <h3>Largest Playground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse molestiae id, soluta ullam eum aperiam odit iure eligendi magnam cupiditate, dicta, laborum vitae distinctio. Dolor adipisci culpa sapiente ipsam architecto?</p>
+       
+        </div>
+        <div class="facilities-col">
+            <img src="images/school cafeteria.png" alt="">
+            <h3>Hygenic cafeteria</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse molestiae id, soluta ullam eum aperiam odit iure eligendi magnam cupiditate, dicta, laborum vitae distinctio. Dolor adipisci culpa sapiente ipsam architecto?</p>
+       
+        </div>
+    </div>
+</section>
+
+
+        <!--javascript for toggle menu-->
+        <script>
+
+            var navlinks = document.getelementbyid(navlinks);
+
+            function showmenu(){
+            navlinks.style.right = "0";
+            }
+            function hidemenu(){
+                navlinks.style.right= "-200px";
+            }
+        </script>
+        
+    </body>
+</html>
